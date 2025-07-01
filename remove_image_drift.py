@@ -116,7 +116,7 @@ def apply_phase_correction(images_dict, phase_dif, smooth, smooth_factor):
     plt.plot(cum_phase_x, 'o', color='black', label ='x drift')
     plt.plot(cum_phase_y, 'o', color='gray', label = 'y drift')
     
-    if smooth == 'rollling':
+    if smooth == 'rolling':
         cum_phase_x, cum_phase_y = rolling_smooth_dirfts((cum_phase_x, cum_phase_y), smooth_factor)
         plt.plot(cum_phase_x, color='red', label ='moving av. x drift')
         plt.plot(cum_phase_y, color='red', label = 'moving av. y drift')
