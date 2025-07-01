@@ -9,5 +9,5 @@ Then the cumulative drift is calculated. The use can choose to smnooth the cumul
 
 The smoothed or raw cumulative drifts are used to adjust the maximum possible croppig frame around the microscopy images.
 An example of the drift correction is shown below:
-![movie_example.gif](https://github.com/alexSysBio/image_drift_correction//correction_example.gif)
+![movie_example.gif](https://github.com/alexSysBio/image_drift_correction/blob/main/correction_example.gif)
 
