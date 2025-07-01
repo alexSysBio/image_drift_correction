@@ -11,3 +11,4 @@ The smoothed or raw cumulative drifts are used to adjust the maximum possible cr
 An example of the drift correction is shown below. The uncorrected movie is on the left, and the drif-corrected time-lapse movie is shown on the right:
 ![movie_example.gif](https://github.com/alexSysBio/image_drift_correction/blob/main/correction_example.gif)
 
+An example of using the functions provided in the repository is included in the 'drift_correction_user_guide.py' script.
