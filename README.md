@@ -1,4 +1,4 @@
-# image_drift_correction 🔬🪛
+# PyDriftCor 🔬🪛
 
 This reository includes a collection of functions written in Python to correct the drift in time-lapse microscopy images.
 The drift between consecutive frames is calculated by applying the 'phase_cross_correlation' function from the Scikit-image library (https://scikit-image.org/docs/0.25.x/api/skimage.registration.html#skimage.registration.phase_cross_correlation).
